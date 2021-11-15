@@ -1,0 +1,27 @@
+h1{
+    text-transform: uppercase;
+    color: rgb(247, 84, 84);
+    text-align: center;
+}
+h4{
+    text-transform: uppercase;
+    color: ivory;
+    text-align: center;
+}
+div{
+    border: 1px solid grey;
+    padding: 8px;
+    color: honeydew;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #333;
+    color: #fff;
+}
+.image_block{
+    right: 0%;
+    bottom: 0%;
+    position: fixed;
+}
+

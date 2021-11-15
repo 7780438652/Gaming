@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payments Project</title>
+    </head>
+    <link rel = "stylesheet" type="text/css" href = "css/PayStyle.css"> 
+    <div style="background-image: url('file:///C:/Users/Administrator/Downloads/2311974.jpg');">
+    <body>
+        <img src="file:///C:/Users/Administrator/Downloads/depositphotos.jpg" alt="Bank"
+        style="float: left; width: 120px; height: 120px;">
+        <img src="file:///C:/Users/Administrator/Downloads/download%20(1).png" alt="Transfer_icon" 
+        style="float: right; width: 120px; height: 120px;"> 
+        <h1>Payment Page </h1>
+        <h4>World's safest Transaction!</h4>
+        <br><br>
+        <form action = "Process.php" method="POST">
+            <nav>
+                <a href = "www.homepage/DBS.com">Home</a> |
+                <a href = "contactdetails/DBS">ContactUs</a> |
+                <a href = "DBSmailoperations@dbs.com">E-mail</a> |
+                <a href = "www.myforms/microsoft.com">Feedback</a> 
+            <br>
+            <br>
+                <div>
+                    <label>Customer ID</label>
+                    <input type= "number" name="Customer ID" placeholder="Enter Customer ID">
+                </div>   
+                <br>
+                <div>
+                    <label>Holder Name </label>
+                    <input type="text" name="Holder_Name" placeholder="Enter Your Name">
+                </div>    
+                <br>
+                <div>    
+                    <label>Clear Balance </label>
+                    <input type="number" name="Clear_balance">
+                </div>    
+                <br>   
+                <div>
+                    <label>Transfer Type </label>
+                    <select name = "Transfer_Type" id="Transfer_Type">
+                        <option value="Customer Transfer">Customer Transfer</option>
+                        <option value="Bank Transfer">Bank Transfer</option>
+                        <option value="Bank Transfer to Own">Bank Transfer to Own</option>
+                    </select>
+                </div>    
+                <br>
+                <div>  
+                    <label>OverDraft </label>
+                    <select name="OverDraft " id="OverDraft">
+                        <option name="Yes">Yes</option>
+                        <option name="No">No</option>
+                    </select>
+                </div>    
+                <br>
+                <div>
+                    <label>BIC</label>
+                    <input type="text" name="BIC" placeholder="Enter BIC ">
+                </div>    
+                <br>
+                <div>
+                    <label>Rec Institution Name</label>
+                    <input type="text" name="Rec Institution Name ">
+                </div>    
+                <br>
+                <div>
+                    <label>Message</label>
+                    <select name = "Message" id="Message">
+                        <option value="CHQB">CHQB</option>
+                        <option value="CORT">CORT</option>
+                        <option value="HOLD">HOLD</option>
+                        <option value="INTC">INTC</option>
+                        <option value="PHOB">PHOB</option>
+                        <option value="PHOI">PHOI</option>
+                        <option value="SDVA">SDVA</option>
+                        <option value="REPA">REPA</option>
+                    </select>
+                </div>    
+                <br>
+                <div>
+                    <label>Instruction</label>
+                    <textarea name="Instruction" placeholder="Give Instrutions"></textarea>
+                </div>    
+                <br>
+                <div>
+                    <label>Currency</label>
+                    <select name="Currency" id="Currency">
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="JPY">JPY</option>
+                    </select>
+                </div>    
+                <br>
+                <div>
+                    <label>Value</label>
+                    <input type="number" name="Value"> 
+                </div>     
+                <br>
+                <br>
+                <input type="Submit"name="submit"value="Submit">
+            </div>  
+            <br>  
+        </form>
+    </body>   
+</html>
