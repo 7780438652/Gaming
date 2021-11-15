@@ -1,0 +1,12 @@
+CREATE DATABASE payments;
+use payments;
+CREATE TABLE ReceiverData(cust_id INT, Holder_name VARCHAR(30), Clear_Balance INT, Transfer_Type VARCHAR(30), Overdraft VARCHAR(30), BIC VARCHAR(30), Rec_Institution_name VARCHAR(30), message VARCHAR(30), Instruction VARCHAR(30), USD VARCHAR(30), Value DOUBLE);
+ INSERT INTO ReceiverData VALUES(234322, 'V Chakravarthy', 223432, 'Bank Trasfer for Own', 'Yes', 'ABNAINBBAHIM', 'ABA Amro Bank NV', 'HODL', 'Beneficiery Customer', 'GBP', 102), (534432, 'M Hussain', 56000, 'Customer Transfer', 'No', 'PYTMBNK', 'Paytm Payments Bank', 'CHQB', 'Payment is made in settlements', 'USD',74.08);
+ INSERT INTO ReceiverData VALUES(543465, 'Md Kaif', 321143, 'Bank Transfer', 'No', 'UBINBNK', 'Union Bank of India', 'SDVA', 'Payment executed in same day', 'JPY', 0.645), (980988, 'Abhitha', 32000, 'Bank Tranfer for Own', 'Yes', 'BOFAINXMAA', 'Bank of America NA Chennai', 'REPA', 'Payment has related e-payment', 'EUR', 84);
+ INSERT INTO ReceiverData VALUES(433435, 'M Hasranga', 43542, 'Bank Transfer', 'No', 'BARBINBBXXX', 'Bank of Baroda', 'PHON', 'Please advice intermediary ', 'GBP', 102);
+ INSERT INTO ReceiverData VALUES(324321, 'H Gunathilaka', 2099999, 'Customer Transfer to Own', 'Yes', 'MAHBINBBAHM', 'Bank of Maharastra', 'PHOI', 'Please advice intermediary' ,'JPY', 0.645);
+ INSERT INTO ReceiverData VALUES(564232, 'MSK Prasad', 645653, 'Bank Transfer on Own', 'No', 'AXISINBBXXX','Axis Bank of India', 'INTC', 'Payment between 2 countries', 'USD', 74.08);
+ INSERT INTO ReceiverData VALUES(564243, 'A Anand', 78778, 'Customer Transfer', 'No', 'ANDBINBBXXX', 'Andhra Bank', 'CHQB', 'Beneficiery cusomer must send', 'USD', 74.08);
+ INSERT INTO ReceiverData VALUES(675768, 'D Adithya', 56777, 'Bank Transfer', 'No', 'BARCINBBMUM', 'Barclys Bank Ltd', 'PHON', 'Please advice intermediary', 'EUR', 84),(954345, 'H Vikram', 78990,'Bank Transfer on Own', 'Yes', 'CNRBINBBXXX', 'Canara Bank', 'CORT', 'Payment is made in settlements', 'EUR', 84);
+ INSERT INTO ReceiverData VALUES(567578, 'U BalaKrishna', 78976, 'Customer Transfer on Own', 'No', 'CITIINBXBLR', 'Citi Bank Ltd', 'INTC', 'Payments done internationally', 'USD', 74.08), (546557, 'F Faria', 54667, 'Bank Transfer', 'No', 'BKIDINBBXX', 'Bank of India', 'SDVA', 'Payments executed on sameday', 'JPY', 0.645);
+SELECT*FROM ReceiverData;
