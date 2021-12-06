@@ -1,0 +1,122 @@
+.class-navi{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+.my-header h1{
+    color: red;
+}
+
+.nav-class a{
+    color:blue;
+    font-weight: bold;
+}
+.my-header{
+    background-image: url('file:///C:/Users/Administrator/Downloads/cover.jpg');
+    font-weight: bold;
+}
+li, a, button{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.class-navi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+.class-navi{
+    list-style: none;
+}
+.class-navi li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.class-navi li a{
+    transition: all 0.3s ease0s;
+}
+.class-navi li a:hover{
+    color: #0088a9;
+}
+.btn-a{
+    right: 0%;
+    float: right;
+}
+button{
+    padding:9px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+.main{
+    border: 1px solid grey;
+}
+.search-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border : 1px solid #999;
+    outline: none;
+    text-align: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#first, #second, #third{
+    border: 1px solid;
+    padding:10px;
+    box-shadow: 5px 10px grey;
+    font-weight: bold;
+    width: 140px;
+    height: 100px;
+}
+#first{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.entire-page{
+    background-color: lavender;
+}
+#second{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#third{
+    margin-left: 65%;
+}
+img{
+    left: 0%;
+}
+.main{
+    background-color: lightgray;
+    float: right;
+    right: 0%;
+    width: 80%;
+}
+.main h6{
+    color: red;
+}
+.main p{
+    color: blue;
+}
+#main-footer{
+    text-align: center;
+    background-color: lightsalmon;
+    color: black;
+    font-weight: bold;
+    bottom: 0%;
+}
+#main-footer p{
+    color: black;
+}
